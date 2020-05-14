@@ -1,0 +1,3 @@
+2020-05-13 18:59:37.148 [restartedMain] WARN  o.s.b.a.t.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration - Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2020-05-13 18:59:37.149 [restartedMain] WARN  org.thymeleaf.templatemode.TemplateMode - [THYMELEAF][restartedMain] Template Mode 'HTML5' is deprecated. Using Template Mode 'HTML' instead.
+2020-05-13 18:59:54.782 [http-nio-8085-exec-3] WARN  c.study.springbootlogger.controller.TestController - warn------
