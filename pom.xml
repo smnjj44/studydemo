@@ -23,6 +23,7 @@
     <modules>
         <module>rabbitmq</module>
         <module>apollo</module>
+        <module>springbootlogger</module>
     </modules>
 
 
