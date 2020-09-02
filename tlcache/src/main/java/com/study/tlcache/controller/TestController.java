@@ -1,8 +1,6 @@
 package com.study.tlcache.controller;
 
-import com.study.tlcache.annotation.TlCache;
 import com.study.tlcache.service.TestService;
-import com.study.tlcache.utils.TlCacheUtil;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RestController;
