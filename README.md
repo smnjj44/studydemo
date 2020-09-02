@@ -11,3 +11,5 @@ https://www.cnblogs.com/zhangjianbing/p/8992897.html<br>
 https://blog.csdn.net/weixin_34291004/article/details/92438877
 
 3.rabbitmq以及rabbitmq和spring、springboot和spring-Rabbit结合的例子 <br>学习地址：https://blog.csdn.net/hellozpc/article/details/81436980
+
+4.localcachen https://www.toutiao.com/i6859216145539400199/?tt_from=weixin&utm_campaign=client_share&wxshare_count=1&timestamp=1598600182&app=news_article&utm_source=weixin&utm_medium=toutiao_ios&use_new_style=1&req_id=202008281536210100260770733D0F2CD3&group_id=6859216145539400199
