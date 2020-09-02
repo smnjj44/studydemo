@@ -24,6 +24,7 @@
         <module>rabbitmq</module>
         <module>apollo</module>
         <module>springbootlogger</module>
+        <module>tlcache</module>
     </modules>
 
 
