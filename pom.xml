@@ -25,6 +25,7 @@
         <module>apollo</module>
         <module>springbootlogger</module>
         <module>tlcache</module>
+        <module>proxypattern</module>
     </modules>
 
 

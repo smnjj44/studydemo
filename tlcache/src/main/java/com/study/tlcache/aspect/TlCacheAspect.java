@@ -37,7 +37,7 @@ public class TlCacheAspect {
                 Map finalCache = cache;
                 finalCache.put(key, result);
                 TlCacheUtil.set(finalCache);
-                return result;
+                return result;//return直接修改加了注解的方法的返回结果
             } else {
                 Map finalCache = cache;
                 if (finalCache.containsKey(key)) {
