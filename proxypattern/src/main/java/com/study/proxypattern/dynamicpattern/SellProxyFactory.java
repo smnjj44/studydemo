@@ -25,7 +25,7 @@ public class SellProxyFactory implements InvocationHandler {
     public SellProxyFactory(Object realObject) {
         this.realObject = realObject;
     }
-    //这里不用像静态代理这样实现多个接口方法
+    //这里不用像静态代理这样实现多个接口方法,给每个接口都增强一遍前后增强
     @Override
     public Object invoke(Object o, Method method, Object[] objects) throws Throwable {
         doSomethingBefore();

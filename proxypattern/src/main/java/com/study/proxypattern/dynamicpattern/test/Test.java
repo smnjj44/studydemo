@@ -25,7 +25,7 @@ public class Test {
                 sellProxyFactory);
         // 代理售卖红酒
         sellWineProxy.sellWine(1999.99);
-
+        sellWineProxy.buyWine(999);
 
         //香水经销商 要代理的真实对象
         ChanelFactory chanelFactory = new ChanelFactory();

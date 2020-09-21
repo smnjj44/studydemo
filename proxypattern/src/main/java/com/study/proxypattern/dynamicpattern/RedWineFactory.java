@@ -13,4 +13,9 @@ public class RedWineFactory implements SellWine {
     public void sellWine(double price) {
         System.out.println("成功售卖一瓶红酒，价格：" + price + "元");
     }
+
+    @Override
+    public void buyWine(double price) {
+        System.out.println("回购红酒"+price);
+    }
 }

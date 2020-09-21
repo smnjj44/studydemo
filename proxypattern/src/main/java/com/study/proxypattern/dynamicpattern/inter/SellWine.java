@@ -8,4 +8,6 @@ package com.study.proxypattern.dynamicpattern.inter;
  */
 public interface SellWine {
    public void sellWine(double price);
+
+   public void buyWine(double price);
 }
