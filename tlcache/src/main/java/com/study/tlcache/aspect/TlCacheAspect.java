@@ -17,6 +17,15 @@ import java.util.Map;
 @Aspect
 public class TlCacheAspect {
 
+    /**
+     * 1.不能切私有方法还有不能this调用
+     * 2.this调用或者本方法使用到切面方法时需要((QoqCommentDataHandler) AopContext.currentProxy())一下把动态代理用出来，不然本类调用初始化时就生效动态代理使不出来
+     * 3.配置文件xml需要开启包扫描和aop配置语句
+     * @param joinpoint
+     * @param tlCache
+     * @return
+     * @throws Throwable
+     */
     //在某个注解下围绕方法的结果进行环绕前后增强
     @Around(value = "@annotation(tlCache)")
     public Object aroundAdvice(ProceedingJoinPoint joinpoint, TlCache tlCache) throws Throwable{
