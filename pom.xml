@@ -26,6 +26,7 @@
         <module>springbootlogger</module>
         <module>tlcache</module>
         <module>proxypattern</module>
+        <module>collectionstudy</module>
     </modules>
 
 
